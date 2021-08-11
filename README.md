@@ -6,14 +6,14 @@
 
 ## Basic Setup
 ```node
-const cthulhu = require('./Cthulhu')
+const cthulhu = require('cthulhu.js') // Import the Cthulhu module
 
-cthulhu.server.serve('/','GET',function(req, res){
+cthulhu.server.serve('/','GET',function(req, res){ // Serve the Webpage '/' allowing only 'GET' requests
 
-    res.write('Hello World ')
+    res.write('Hello World ')   // Write hello to the page
 
 })
 
-cthulhu.server.start()
+cthulhu.server.start(8080) // Start the server on port 8080, Default: 80
 
 ```
