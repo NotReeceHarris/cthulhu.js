@@ -1,6 +1,6 @@
 {
     "name": "cthulhu.js",
-    "version": "Prod1.0.4",
+    "version": "Prod1.0.5",
     "description": "^(;,;)^ Cthulhu is a minimul hardend http framework",
     "main": "src/index.js",
     "scripts": {
@@ -27,5 +27,6 @@
         "master"
       ]
     },
-    "homepage": "https://github.com/NotReeceHarris/Cthulhu/blob/main/README.md"
+    "homepage": "https://devreece.tech/cthulhu",
+    "Wiki": "https://devreece.tech/cthulhu/wiki"
   }
