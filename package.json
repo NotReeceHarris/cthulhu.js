@@ -10,9 +10,16 @@
       "cthulhu",
       "http",
       "framework",
-      "hardend"
+      "hardend",
+      "router",
+      "app",
+      "web",
+      "security"
     ],
     "author": "Reece Harris <reece.harris98@protonmail.com>",
+    "contributors": [
+       "Deven Briers",
+    ],
     "license": "Apache License 2.0",
     "repository": {
       "type": "git",
@@ -27,7 +34,8 @@
         "master"
       ]
     },
-    "engines" : { "node" : ">=10.24.0" },
-    "homepage": "https://devreece.tech/cthulhu",
-    "Wiki": "https://devreece.tech/cthulhu/wiki"
+    "engines" : { 
+       "node" : ">=10.24.0" 
+    },
+    "homepage": "https://devreece.tech/cthulhu"
   }
