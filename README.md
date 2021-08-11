@@ -1,5 +1,5 @@
 <p align='center'>
-<img src='https://devreece.tech/img/cthulhuText.svg' width='500'>
+<img src='logo.svg' width='500'>
 </p>
 
 > This package is in early development and is lacking core features, right now only basic http serving is supported and little hardening system are implemented such as the method filtering. All support and contribution would be amazing and hopefully we cthulhu becomes a main stream module !
