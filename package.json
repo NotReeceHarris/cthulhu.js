@@ -27,7 +27,7 @@
         "master"
       ]
     },
-    "engines" : { "node" : ">=10.24.0" }
+    "engines" : { "node" : ">=10.24.0" },
     "homepage": "https://devreece.tech/cthulhu",
     "Wiki": "https://devreece.tech/cthulhu/wiki"
   }
