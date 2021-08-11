@@ -29,7 +29,7 @@ Installation is done using the
 ```bash
 $ npm install cthulhu.js
 ```
-For more help follow our [installing guide]()
+For more help follow our [installing guide](https://github.com/NotReeceHarris/Cthulhu/wiki/Installation-guide)
 
 # 🧰 Features
 - Http [hardening](https://en.wikipedia.org/wiki/Hardening_(computing))
