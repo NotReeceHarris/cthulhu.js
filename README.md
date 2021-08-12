@@ -9,7 +9,7 @@
 const cthulhu = require('cthulhu.js')
 
 // Serve the Webpage '/' allowing only 'GET' requests
-cthulhu.server.serve('/', 'GET', function (req, res){
+cthulhu.server.serve('/', ['GET','POST'], function (req, res){
     res.write('Hello World')   // Write hello to the page
 })
 
