@@ -39,7 +39,7 @@ For more help follow our [installing guide](https://github.com/NotReeceHarris/Ct
 - Minimul setup
 
 # 📎 Links
-- Visit the [wiki and docs](https://github.com/NotReeceHarris/Cthulhu/wiki)
+- Visit the [wiki](https://github.com/NotReeceHarris/Cthulhu/wiki) or [docs](https://github.com/NotReeceHarris/Cthulhu/wiki/Docs)
 - Github [repo](https://github.com/NotReeceHarris/Cthulhu/)
 - [Npm](https://www.npmjs.com/package/cthulhu.js) package
 
