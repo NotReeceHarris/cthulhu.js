@@ -8,7 +8,7 @@
 // Import the Cthulhu module
 const cthulhu = require('cthulhu.js')
 
-// Serve the Webpage '/' allowing only 'GET' requests
+// Serve the Webpage '/' allowing only 'GET' and 'POST' requests
 cthulhu.server.serve('/', ['GET','POST'], function (req, res){
     res.write('Hello World')   // Write hello to the page
 })
