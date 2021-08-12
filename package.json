@@ -1,6 +1,6 @@
 {
     "name": "cthulhu.js",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "^(;,;)^ Cthulhu is a minimul hardend http framework",
     "main": "src/index.js",
     "scripts": {
@@ -10,9 +10,16 @@
       "cthulhu",
       "http",
       "framework",
-      "hardend"
+      "hardend",
+      "router",
+      "app",
+      "web",
+      "security"
     ],
-    "author": "Reece Harris",
+    "author": "Reece Harris <reece.harris98@protonmail.com>",
+    "contributors": [
+       "Deven Briers",
+    ],
     "license": "MIT",
     "repository": {
       "type": "git",
@@ -27,6 +34,8 @@
         "master"
       ]
     },
-    "homepage": "https://devreece.tech/cthulhu",
-    "Wiki": "https://devreece.tech/cthulhu/wiki"
+    "engines" : { 
+       "node" : ">=10.24.0" 
+    },
+    "homepage": "https://devreece.tech/cthulhu"
   }
