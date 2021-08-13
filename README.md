@@ -18,7 +18,7 @@ cthulhu.server.start(8080,true)
 
 ```
 
-# 🛠️ Installation
+# :hammer_and_wrench: Installation
 
 This is a [Node.js](https://nodejs.org/) module available through the
 [npm registry](https://www.npmjs.com/).
@@ -31,14 +31,14 @@ $ npm install cthulhu.js
 ```
 For more help follow our [installing guide](https://github.com/NotReeceHarris/Cthulhu/wiki/Installation-guide)
 
-# 🧰 Features
+# :toolbox: Features
 - Http [hardening](https://en.wikipedia.org/wiki/Hardening_(computing))
 - High performance
 - Module [routing](https://en.wikipedia.org/wiki/Routing)
 - Redirecting, Caching, Security, Etc
 - Minimul setup
 
-# 📎 Links
+# :paperclip: Links
 - Visit the [wiki](https://github.com/NotReeceHarris/Cthulhu/wiki) or [docs](https://github.com/NotReeceHarris/Cthulhu/wiki/Docs)
 - Github [repo](https://github.com/NotReeceHarris/Cthulhu/)
 - [Npm](https://www.npmjs.com/package/cthulhu.js) package
@@ -46,6 +46,6 @@ For more help follow our [installing guide](https://github.com/NotReeceHarris/Ct
 #### Security Issues
 If you discover a vulnerability in Cthulhu, Please review our [Security Policies and Procedures](https://github.com/NotReeceHarris/Cthulhu/blob/Development/SECURITY.md).
 
-# 📜 License
+# :scroll: License
 [MIT License](https://github.com/NotReeceHarris/Cthulhu/blob/Production/LICENSE)
  
