@@ -8,17 +8,17 @@
 // Import the Cthulhu module
 const cthulhu = require('cthulhu.js')
 
-// Serve the Webpage '/' allowing only 'GET' requests
-cthulhu.server.serve('/', 'GET', function (req, res){
+// Serve the Webpage '/' allowing only 'GET' and 'POST' requests
+cthulhu.server.serve('/', ['GET','POST'], function (req, res){
     res.write('Hello World')   // Write hello to the page
 })
 
-// Start the server on port 8080, Default: 80
-cthulhu.server.start(8080)
+// Start the server on port 8080 in hardened mode, Default: 80,false
+cthulhu.server.start(8080,true)
 
 ```
 
-# 🛠️ Installation
+# :hammer_and_wrench: Installation
 
 This is a [Node.js](https://nodejs.org/) module available through the
 [npm registry](https://www.npmjs.com/).
@@ -31,21 +31,21 @@ $ npm install cthulhu.js
 ```
 For more help follow our [installing guide](https://github.com/NotReeceHarris/Cthulhu/wiki/Installation-guide)
 
-# 🧰 Features
+# :toolbox: Features
 - Http [hardening](https://en.wikipedia.org/wiki/Hardening_(computing))
 - High performance
 - Module [routing](https://en.wikipedia.org/wiki/Routing)
 - Redirecting, Caching, Security, Etc
 - Minimul setup
 
-# 📎 Links
-- Visit the [wiki and docs](https://github.com/NotReeceHarris/Cthulhu/wiki)
+# :paperclip: Links
+- Visit the [wiki](https://github.com/NotReeceHarris/Cthulhu/wiki) or [docs](https://github.com/NotReeceHarris/Cthulhu/wiki/Docs)
 - Github [repo](https://github.com/NotReeceHarris/Cthulhu/)
 - [Npm](https://www.npmjs.com/package/cthulhu.js) package
 
 #### Security Issues
 If you discover a vulnerability in Cthulhu, Please review our [Security Policies and Procedures](https://github.com/NotReeceHarris/Cthulhu/blob/Development/SECURITY.md).
 
-# 📜 License
+# :scroll: License
 [MIT License](https://github.com/NotReeceHarris/Cthulhu/blob/Production/LICENSE)
  
