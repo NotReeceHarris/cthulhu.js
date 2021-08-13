@@ -13,8 +13,8 @@ cthulhu.server.serve('/', ['GET','POST'], function (req, res){
     res.write('Hello World')   // Write hello to the page
 })
 
-// Start the server on port 8080, Default: 80
-cthulhu.server.start(8080)
+// Start the server on port 8080 in hardened mode, Default: 80,false
+cthulhu.server.start(8080,true)
 
 ```
 
