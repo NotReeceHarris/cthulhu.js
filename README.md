@@ -25,7 +25,7 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install @techonaut/cthulhu@1.0.0
+$ npm install @techonaut/cthulhu@1.0.1
 ```
 For more help follow our [installing guide](https://github.com/NotReeceHarris/Cthulhu/wiki/Installation-guide)
 
