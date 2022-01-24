@@ -6,7 +6,7 @@ const _about = require('./_about');
 var RunningServer = null; 
 var HardenedMode = null 
 var ServeFunctions = [];
-var ServeList = [];
+var ServeList = []; 
    
 exports.server = {
     start(HttpPort=80,Harden=false) {
