@@ -18,22 +18,11 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest      # Docker-based github actions have to run on a linux environment
     steps:
-      # Checks-out your repository
-      - uses: actions/checkout@v2
+      - name: HTML/CSS/JS Minifier
+        uses: docker://devatherock/minify-js:1.0.3
         with:
-          ref: ${{ github.ref }}
-
-      # Job for Minify-JS
-      - name: Minify-JS Action
-        uses: jossydevers/minify-js@v1.0.1
-        with:
-          directory: 'src/*' # (OPTIONAL)
-          output: 'build/' # (OPTIONAL)
-          
-      # Auto-commit to repository
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'Minify-JS : Commit Pipeline'
-          branch: ${{ github.ref }}
+          directory: 'src'      # Optional
+          output: 'build'  # Optional
+          add_suffix: false     # Optional
