@@ -13,7 +13,7 @@
           "web",
           "security"
     ],
-    "author": "Reece Harris <reece.harris98@protonmail.com>",
+    "author": "Reece Harris <reece.harris98@protonmail.com>", 
     "license": "GPL-3.0",
     "repository": {
         "url": "git://github.com/Techonaut/Cthulhu.git"
