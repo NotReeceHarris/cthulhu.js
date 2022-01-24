@@ -1,7 +1,5 @@
 <img src='logo.svg' width='500'>
 
-[![Run on repl](https://img.shields.io/badge/replit-run%20on%20repl-green?style=flat-square&logo=replit)](https://replit.com/github/NotReeceHarris/cthulhujs-replit-example) ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/NotReeceHarris/Cthulhu/Production?style=flat-square) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/cthulhu.js?style=flat-square)
-
 > This package is in early development and is lacking core features, right now only basic http serving is supported and little hardening system are implemented such as the method filtering. All support and contribution would be amazing and hopefully cthulhu becomes a main stream module ! [Wiki](http://devreece.tech/cthulhu/wiki).
 
 ```node
