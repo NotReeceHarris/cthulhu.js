@@ -1,5 +1,5 @@
 {
-    "name": "@Techonaut/cthulhu.js",
+    "name": "@Techonaut/cthulhu",
     "version": "1.0.0",
     "description": "^(;,;)^ Cthulhu is a minimul hardend http framework",
     "main": "src/index.js",
