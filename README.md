@@ -47,5 +47,5 @@ For more help follow our [installing guide](https://github.com/NotReeceHarris/Ct
 If you discover a vulnerability in Cthulhu, Please review our [Security Policies and Procedures](https://github.com/NotReeceHarris/Cthulhu/blob/Development/SECURITY.md).
 
 # :scroll: License
-[MIT License](https://github.com/NotReeceHarris/Cthulhu/blob/Production/LICENSE)
+[GPL-3.0](https://github.com/NotReeceHarris/Cthulhu/blob/Production/LICENSE)
  
