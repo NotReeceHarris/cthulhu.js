@@ -4,7 +4,7 @@
 
 ```node
 // Import the Cthulhu module
-const cthulhu = require('cthulhu')
+const cthulhu = require('cthulhu_js')
 
 // Serve the Webpage '/' allowing only 'GET' and 'POST' requests
 cthulhu.server.serve('/', ['GET','POST'], function (req, res){
@@ -25,9 +25,9 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install @techonaut/cthulhu@1.0.0
+$ npm install cthulhu_js
 ```
-For more help follow our [installing guide](https://github.com/NotReeceHarris/Cthulhu/wiki/Installation-guide)
+For more help follow our [installing guide](https://github.com/Techonaut/Cthulhu/wiki/Installation-guide)
 
 # :toolbox: Features
 - Http [hardening](https://en.wikipedia.org/wiki/Hardening_(computing))
@@ -37,13 +37,13 @@ For more help follow our [installing guide](https://github.com/NotReeceHarris/Ct
 - Minimul setup
 
 # :paperclip: Links
-- Visit the [wiki](https://github.com/NotReeceHarris/Cthulhu/wiki) or [docs](https://github.com/NotReeceHarris/Cthulhu/wiki/Docs)
-- Github [repo](https://github.com/NotReeceHarris/Cthulhu/)
-- [Npm](https://www.npmjs.com/package/cthulhu.js) package
+- Visit the [wiki](https://github.com/Techonaut/Cthulhu/wiki) or [docs](https://github.com/Techonaut/Cthulhu/wiki/Docs)
+- Github [repo](https://github.com/Techonaut/Cthulhu/)
+- [Npm](https://www.npmjs.com/package/cthulhu_js) package
 
 #### Security Issues
-If you discover a vulnerability in Cthulhu, Please review our [Security Policies and Procedures](https://github.com/NotReeceHarris/Cthulhu/blob/Development/SECURITY.md).
+If you discover a vulnerability in Cthulhu, Please review our [Security Policies and Procedures](https://github.com/Techonaut/Cthulhu/blob/Development/SECURITY.md).
 
 # :scroll: License
-[GPL-3.0](https://github.com/NotReeceHarris/Cthulhu/blob/Production/LICENSE)
+[GPL-3.0](https://github.com/Techonaut/Cthulhu/blob/Production/LICENSE)
  
