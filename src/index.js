@@ -4,7 +4,7 @@ const fs = require('fs');
 const _about = require('./_about');
 
 var RunningServer = null; 
-var HardenedMode = null
+var HardenedMode = null 
 var ServeFunctions = [];
 var ServeList = [];
 
