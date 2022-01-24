@@ -7,7 +7,7 @@ var RunningServer = null;
 var HardenedMode = null 
 var ServeFunctions = [];
 var ServeList = [];
-  
+   
 exports.server = {
     start(HttpPort=80,Harden=false) {
 
