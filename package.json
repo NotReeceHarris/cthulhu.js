@@ -1,41 +1,28 @@
 {
-    "name": "cthulhu.js",
-    "version": "1.0.7",
+    "name": "@Techonaut/cthulhu.js",
+    "version": "1.0.0",
     "description": "^(;,;)^ Cthulhu is a minimul hardend http framework",
-    "main": "src/index.js",
-    "scripts": {
-      "start": "node src/index.js"
-    },
+    "main": "build/index.js",
     "keywords": [
-      "cthulhu",
-      "http",
-      "framework",
-      "hardend",
-      "router",
-      "app",
-      "web",
-      "security"
+          "cthulhu",
+          "http",
+          "framework",
+          "hardend",
+          "router",
+          "app",
+          "web",
+          "security"
     ],
     "author": "Reece Harris <reece.harris98@protonmail.com>",
-    "contributors": [
-       "Deven Briers"
-    ],
-    "license": "MIT",
+    "license": "GPL-3.0",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/NotReeceHarris/Cthulhu.git"
+        "url": "git://github.com/Techonaut/Cthulhu.git"
     },
     "bugs": {
-      "url": "https://github.com/NotReeceHarris/Cthulhu/issues"
+        "url": "https://github.com/Techonaut/Cthulhu/issues"
     },
     "publishConfig": {
-      "access": "public",
-      "branches": [
-        "master"
-      ]
+        "registry": "https://npm.pkg.github.com"
     },
-    "engines" : { 
-       "node" : ">=10.24.0" 
-    },
-    "homepage": "https://devreece.tech/cthulhu"
-  }
+    "homepage": "https://github.com/Techonaut/Cthulhu"
+}
