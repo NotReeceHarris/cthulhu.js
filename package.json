@@ -1,6 +1,6 @@
 {
-    "name": "cthulhu_js",
-    "version": "1.0.1",
+    "name": "cthulhu.js",
+    "version": "2.0.0",
     "description": "^(;,;)^ Cthulhu is a minimul hardend http framework",
     "main": "src/index.js",
     "keywords": [

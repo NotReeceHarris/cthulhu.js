@@ -4,7 +4,7 @@
 
 ```node
 // Import the Cthulhu module
-const cthulhu = require('cthulhu_js')
+const cthulhu = require('cthulhu.js')
 
 // Serve the Webpage '/' allowing only 'GET' and 'POST' requests
 cthulhu.server.serve('/', ['GET','POST'], function (req, res){
@@ -25,7 +25,7 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install cthulhu_js
+$ npm install cthulhu.js
 ```
 For more help follow our [installing guide](https://github.com/Techonaut/Cthulhu/wiki/Installation-guide)
 
