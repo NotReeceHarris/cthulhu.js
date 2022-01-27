@@ -1,6 +1,10 @@
 name: npm-publish
 
-on: push
+on: 
+  push:
+    branches: [ Production ]
+  pull_request:
+    branches: [ Production ]
 
 jobs:
   publish:
