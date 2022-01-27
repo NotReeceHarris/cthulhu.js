@@ -1,1 +1,0 @@
-module.exports._version = 'V2.0.1';
